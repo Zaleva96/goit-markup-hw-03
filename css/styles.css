@@ -114,14 +114,20 @@ a {
 }
 
 /* hero */
-.button {
+.hero-button-open {
+  display: block
+  min-width: 169px 
   font-weight: 500;
+  border: none;
+   border-radius: 4px
+  height: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -130,15 +136,17 @@ a {
 
 .section-hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
-.hero-title {
+.hero-title-item {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 /* principles */
 .princip-title {
