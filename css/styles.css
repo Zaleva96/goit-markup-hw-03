@@ -49,7 +49,7 @@ a {
   align-items: center;
 }
 
-. .logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -141,17 +141,34 @@ a {
 }
 
 .hero-title-item {
+  margin: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
-  margin: 0 auto;
 }
 /* principles */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.princip {
+  padding: 120px 0;
+}
+
 .princip-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -165,6 +182,15 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.princip-list {
+  display: flex;
+  gap: 24px;
+}
+
+.princip-item {
+  width: calc((100% - 72px) / 4);
+}
+
 /* our team */
 .our-team {
   background-color: #f4f4fd;
