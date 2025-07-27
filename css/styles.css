@@ -194,9 +194,11 @@ a {
 
 /* our team */
 .our-team {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .our-team-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -206,6 +208,7 @@ a {
   text-transform: capitalize;
 }
 .our-team-specialists {
+  margin-bottom: 8px
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -223,8 +226,19 @@ a {
   background-color: #ffffff;
 }
 .our-team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   color: #ffffff;
   background-color: #ffffff;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-container {
+  padding: 32px 0;
 }
 
 /* our portfolio */
